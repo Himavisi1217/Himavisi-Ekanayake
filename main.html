@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himavisi Ekanayake - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <video autoplay muted loop id="background-video">
+            <source src="bcg.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="content">
+          <div class="profile-card">
+            <img src="profile.jpg" alt="Himavisi Ekanayake" id="home-pic">
+            </div>
+            <h1>Himavisi Bandara Ekanayake</h1>
+            <!-- ICONS -->
+            <div class="skills-icons">
+              <i class="fab fa-html5"></i>
+              <i class="fab fa-css3-alt"></i>
+              <i class="fab fa-js-square"></i>
+              <i class="fab fa-php"></i>
+              <i class="fas fa-database"></i>
+          </div>
+            <div class="h-content">
+            <p>Welcome to My portfolio . I hope this will be useful for getting a better Idea about my-self.</p>
+
+            <button onclick="window.location.href='CV.pdf'">Download PDF</button>
+            
+        </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2 id="about_me">About Me</h2>
+        
+        <p class="about-me" >Welcome to the portfolio of Himavisi Ekanayake, an enthusiastic and driven undergraduate student at the Informatics Institute of Technology, affiliated with the University of Westminster. Currently pursuing a Bachelor's degree in Information Technology, Himavisi is dedicated to harnessing the power of technology to drive innovation and solve complex problems.
+                
+            From an early age, Himavisi has been fascinated by the potential of technology to transform lives and industries. This passion led to the pursuit of a formal education in IT, where Himavisi has excelled in both academic and practical aspects of the field. With a strong foundation in programming languages such as Python and a keen understanding of database management using MySQL, Himavisi is well-equipped to tackle real-world challenges.
+            
+            In addition to technical prowess, Himavisi has honed a diverse set of soft skills, including leadership, critical thinking, and creativity. These skills have been further developed through active participation in various extracurricular activities and competitions. Notably, Himavisi was a finalist in the prestigious Cutting-Edge competition in 2022, showcasing a knack for innovation and problem-solving under pressure.
+            
+            Himavisi’s portfolio is a testament to a commitment to continuous learning and professional growth. Each project and achievement highlighted here is a step towards a future where technology is leveraged to create efficient, effective, and sustainable solutions. Whether it's developing robust software applications, managing data-driven projects, or leading a team to success, Himavisi is prepared to make a significant impact in the tech industry.
+            
+            Explore this portfolio to learn more about Himavisi's projects, skills, and achievements. Discover how a combination of technical expertise and a passion for technology is driving a promising career in IT. Connect to discuss potential collaborations, opportunities, or simply to share insights on the ever-evolving world of technology</p>
+        </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <p class="skl">Python</p>
+        <div class="progress-container">
+            <div class="progress-bar" style="width: 80%;"></div>
+          </div>
+          <p class="skl">SQL</p>
+          <div class="progress-container">
+              <div class="progress-bar" style="width: 85%;"></div>
+            </div>
+            <p class="skl">HTML</p>
+            <div class="progress-container">
+                <div class="progress-bar" style="width: 90%;"></div>
+              </div>
+              <p class="skl">CSS</p>
+              <div class="progress-container">
+                  <div class="progress-bar" style="width: 85%;"></div>
+                </div>
+                <p class="skl">JavaScript</p>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width:50%;"></div>
+                  </div>
+                  <p class="skl">PHP</p>
+                  <div class="progress-container">
+                      <div class="progress-bar" style="width: 70%;"></div>
+                    </div>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="card">
+          <img src="project1.jpg" alt="Project Screenshot 1" class="card-img">
+          <div class="card-content">
+            <h3>"Organic Snacks"</h3>
+            <p class="pjt">I have created a website for Organic snacks store , which the employees can login and add 
+                ,update and delete the products and information of the products .I used PHP ,HTML , CSS to create this web page.</p>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="project2.png" alt="Project Screenshot 2" class="card-img">
+          <div class="card-content">
+            <h3>Team Check Insights</h3>
+            <p class="pjt">I created a web application using figma to a company for the employees of the company for the database management</p>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="project3.png" alt="Project Screenshot 3" class="card-img">
+          <div class="card-content">
+            <h3>My First Portfoilio</h3>
+            <p class="pjt">This is a project i created for my self , using HTML ,CSS and JavaScript.</p>
+          </div>
+        </div>
+      </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+            <p id="formMessage"></p>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
