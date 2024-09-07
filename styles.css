@@ -202,7 +202,7 @@ button {
     width: 300px;
     margin: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(10px); /* Adds a nice blur effect */
+    
 }
 #home-pic {
   width: 150px;
